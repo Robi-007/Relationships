@@ -1,0 +1,14 @@
+//java
+class Class1 {
+    // ...
+    List<Class2> class2List; // Aggregation von Class2 in Class1
+}
+
+class Class2 {
+    // ...
+}
+
+/*
+Erläuterung:
+Class1 hat eine Aggregation von Class2. Das bedeutet, dass Class2-Objekte in Class1 existieren können, aber ihre Lebensdauer ist unabhängig voneinander.
+*/

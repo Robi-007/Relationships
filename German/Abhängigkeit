@@ -1,0 +1,16 @@
+//java
+class Class1 {
+    void someMethod(Class2 object) {
+        // Abhängigkeit: Class1 verwendet ein Objekt von Class2
+    }
+}
+
+class Class2 {
+    // ...
+}
+
+/*
+Erläuterung:
+Class1 hat eine Abhängigkeit von Class2. 
+Das bedeutet, dass Class1 ein Objekt von Class2 in einer Methode verwendet, aber Class2 nicht direkt Teil von Class1 ist.
+*/

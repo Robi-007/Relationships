@@ -1,0 +1,14 @@
+//java
+// Example of a one-to-many relationship
+class Department {
+    List<Employee> employees; // A department has many employees
+}
+
+class Employee {
+    // ...
+}
+
+/*
+Explanation:
+A Department has a list of Employee objects, representing a one-to-many relationship.
+*/

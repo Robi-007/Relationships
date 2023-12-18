@@ -1,0 +1,14 @@
+//java
+// Beispiel für eine Eins-zu-viele-Beziehung
+class Department {
+    List<Employee> employees; // Eine Abteilung hat viele Mitarbeiter
+}
+
+class Employee {
+    // ...
+}
+
+/*
+Erläuterung:
+Ein Department hat eine Liste von Employee-Objekten, was einer Eins-zu-viele-Beziehung entspricht.
+*/

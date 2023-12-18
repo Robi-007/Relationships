@@ -1,0 +1,31 @@
+//java
+// Beispiel für Realisierung von Schnittstelle (Interface)
+interface Owner {
+    void acquireProperty();
+    void disposeOfProperty();
+}
+
+class Person implements Owner {
+    public void acquireProperty() {
+        // Implementierung für Person
+    }
+
+    public void disposeOfProperty() {
+        // Implementierung für Person
+    }
+}
+
+class Corporation implements Owner {
+    public void acquireProperty() {
+        // Implementierung für Corporation
+    }
+
+    public void disposeOfProperty() {
+        // Implementierung für Corporation
+    }
+
+/*
+Erläuterung:
+Person und Corporation implementieren die Schnittstelle Owner. 
+Beide Klassen müssen die Methoden acquireProperty und disposeOfProperty implementieren, um die Vertragsbedingungen der Schnittstelle zu erfüllen.
+*/

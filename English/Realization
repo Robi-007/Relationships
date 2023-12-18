@@ -1,0 +1,31 @@
+//java
+// Example of realizing an interface
+interface Owner {
+    void acquireProperty();
+    void disposeOfProperty();
+}
+
+class Person implements Owner {
+    public void acquireProperty() {
+        // Implementation for Person
+    }
+
+    public void disposeOfProperty() {
+        // Implementation for Person
+    }
+}
+
+class Corporation implements Owner {
+    public void acquireProperty() {
+        // Implementation for Corporation
+    }
+
+    public void disposeOfProperty() {
+        // Implementation for Corporation
+    }
+
+/*
+Explanation:
+Person and Corporation implement the Owner interface. 
+Both classes must implement the acquireProperty and disposeOfProperty methods to fulfill the contract of the interface.
+*/

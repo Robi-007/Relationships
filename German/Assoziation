@@ -1,0 +1,15 @@
+//java
+// Class1 und Class2 haben eine Assoziation
+class Class1 {
+    // ...
+}
+
+class Class2 {
+    // ...
+}
+
+/*
+Erläuterung:
+Class1 und Class2 sind unabhängige Klassen, aber es besteht eine Assoziation zwischen ihnen. 
+Diese Assoziation könnte durch Methodenaufrufe oder Datenzugriff ausgedrückt werden.
+*/

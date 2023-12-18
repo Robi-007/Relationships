@@ -1,0 +1,20 @@
+//java
+// SuperClass
+class Shape {
+    // Gemeinsame Eigenschaften von Formen
+}
+
+// SubClass1 und SubClass2 erben von SuperClass
+class Circle extends Shape {
+    // Spezifische Eigenschaften oder Verhaltensweisen für Kreise
+}
+
+class Square extends Shape {
+    // Spezifische Eigenschaften oder Verhaltensweisen für Quadrate
+}
+
+/*
+Erläuterung:
+Shape ist die allgemeine Klasse, die gemeinsame Eigenschaften von Formen definiert.
+Circle und Square sind spezifische Klassen, die spezielle Eigenschaften oder Verhaltensweisen für Kreise bzw. Quadrate haben und von Shape erben.
+*/

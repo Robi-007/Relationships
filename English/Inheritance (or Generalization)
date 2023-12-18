@@ -1,0 +1,20 @@
+//java
+// SuperClass
+class Shape {
+    // Common properties of shapes
+}
+
+// SubClass1 and SubClass2 inherit from SuperClass
+class Circle extends Shape {
+    // Specific properties or behaviors for circles
+}
+
+class Square extends Shape {
+    // Specific properties or behaviors for squares
+}
+
+/*
+Explanation:
+Shape is the general class defining common properties of shapes.
+Circle and Square are specific classes having special properties or behaviors for circles and squares, inheriting from Shape.
+*/

@@ -1,0 +1,15 @@
+//java
+// Class1 and Class2 have an association
+class Class1 {
+    // ...
+}
+
+class Class2 {
+    // ...
+}
+
+/*
+Explanation:
+Class1 and Class2 are independent classes, but there is an association between them. 
+This association could be expressed through method calls or data access.
+*/

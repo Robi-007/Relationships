@@ -1,0 +1,15 @@
+//java
+class Car {
+    // ...
+    Engine engine; // Composition: The engine belongs to the car, gets destroyed when the car is destroyed
+}
+
+class Engine {
+    // ...
+}
+
+/*
+Explanation:
+Car has a composition of Engine. This means Engine objects exist only within a Car object. 
+If the Car object is destroyed, the Engine objects are also destroyed.
+*/
